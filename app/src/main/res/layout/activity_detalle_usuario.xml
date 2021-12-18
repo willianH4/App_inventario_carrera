@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo2"
+    tools:context=".ui.list_recycle_usu.DetalleUsuario">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fondo2">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                card_view:cardUseCompatPadding="true"
+                android:elevation="7dp"
+                card_view:cardCornerRadius="3dp"
+                android:layout_margin="6dp"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints"
+                tools:targetApi="lollipop">
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearOne"
+                    android:orientation="vertical"
+                    android:background="@color/fondo2"
+                    android:padding="6dp"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginStart="0dp"
+                        android:background="#d5041c">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:id="@+id/tvInformId"
+                            android:background="@color/green"
+                            android:textColor="@android:color/white"
+                            android:text="Usuario"
+                            android:padding="5dp"
+                            android:textSize="25dp"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvUserName"
+                        android:text="Código"
+                        android:layout_marginTop="25dp"
+                        android:textSize="22dp"
+                        android:textColor="@android:color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tvId"
+                        android:text="NaN"
+                        android:textSize="22dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/userName1"
+                        android:text="Nombre"
+                        android:textSize="22dp"
+                        android:textColor="@android:color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tvNombre"
+                        android:text="NaN"
+                        android:textSize="22sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:text="Apellido"
+                        android:textSize="22dp"
+                        android:textColor="@android:color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tvApellido"
+                        android:text="NaN"
+                        android:textSize="22sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:text="Correo"
+                        android:textSize="22dp"
+                        android:textColor="@android:color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tvCorreo"
+                        android:text="NaN"
+                        android:textSize="22sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:text="Usuario"
+                        android:textSize="22dp"
+                        android:textColor="@android:color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tvUsuario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NaN"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:text="Clave"
+                        android:textSize="22dp"
+                        android:textColor="@android:color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tvClave"
+                        android:text="NaN"
+                        android:textSize="22sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/userName2"
+                        android:text="Tipo"
+                        android:textSize="22sp"
+                        android:textColor="@android:color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tvTipo"
+                        android:text="000.00"
+                        android:textSize="22sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:text="Estado"
+                        android:textSize="22dp"
+                        android:textColor="@android:color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tvEstado"
+                        android:text="NaN"
+                        android:textSize="22sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:text="Pregunta"
+                        android:textSize="22dp"
+                        android:textColor="@android:color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tvPregunta"
+                        android:text="NaN"
+                        android:textSize="22sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:text="Respuesta"
+                        android:textSize="22dp"
+                        android:textColor="@android:color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tvRespuesta"
+                        android:text="NaN"
+                        android:textSize="22sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:text="Fecha Registro"
+                        android:textSize="22dp"
+                        android:textColor="@android:color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tvFecha"
+                        android:text="NaN"
+                        android:textSize="22sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/btnEditarCat"
+                            android:layout_weight="1"
+                            android:text="editar"
+                            android:layout_width="0dp"
+                            android:background="@color/lightgreen"
+                            android:layout_height="wrap_content"/>
+
+                        <Button
+                            android:id="@+id/btnBorrarCat"
+                            android:layout_weight="1"
+                            android:layout_marginStart="15dp"
+                            android:textColor="@android:color/white"
+                            android:text="Borrar"
+                            android:background="@color/red"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            tools:ignore="HardcodedText" />
+
+                    </LinearLayout>
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/space40dp"
+                        android:layout_weight="0.1" />
+                </LinearLayout>
+                </ScrollView>
+            </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

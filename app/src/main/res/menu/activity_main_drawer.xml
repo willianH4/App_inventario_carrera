@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <!--
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+            -->
+        <item
+            android:id="@+id/nav_categoria"
+            android:icon="@drawable/ic_cate"
+            android:title="@string/menu_categoria" />
+        <item
+            android:id="@+id/nav_producto"
+            android:icon="@drawable/ic_car"
+            android:title="@string/menu_producto" />
+        <item
+            android:id="@+id/nav_usuario"
+            android:icon="@drawable/ic_user"
+            android:title="@string/menu_usuario" />
+
+        <item
+            android:id="@+id/nav_listviewCategoria"
+            android:icon="@drawable/ic_id"
+            android:title="ListView Categoria" />
+
+        <item
+            android:id="@+id/nav_listviewProducto"
+            android:icon="@drawable/ic_inventario"
+            android:title="Listview producto" />
+        <item
+            android:id="@+id/nav_listviewUsuario"
+            android:icon="@drawable/ic_user"
+            android:title="ListView Usuario" />
+        <item
+            android:id="@+id/nav_creador"
+            android:icon="@drawable/ic_buscar1"
+            android:title="Creadores" />
+
+    </group>
+</menu>

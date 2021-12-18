@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF5722"
+    tools:context=".Login">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/teal"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/space9dp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="307dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/estilotextview"
+            android:fontFamily="serif-monospace"
+            android:text="Login"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_marginTop="@dimen/space45dp"
+            app:srcCompat="@drawable/trabajador"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingrese su email"
+            android:layout_marginTop="@dimen/space30dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text24sp"
+            />
+
+        <EditText
+            android:id="@+id/edtUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/estilotextview"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="@dimen/space20dp"
+            android:layout_marginRight="@dimen/space20dp"
+            android:textSize="@dimen/space18dp"
+
+            />
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingrese su contraseña"
+            android:layout_marginTop="@dimen/space20dp"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text24sp"
+            />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="Password"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/estilotextview"
+            android:textColorHint="@color/black"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:inputType="textPassword"
+            android:textSize="@dimen/space18dp"
+            android:layout_marginLeft="@dimen/space20dp"
+            android:layout_marginRight="@dimen/space20dp"
+            />
+
+
+
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="22dp"
+                android:layout_marginBottom="22dp"
+                android:background="@drawable/estiloboton"
+                android:textColor="@color/white"
+                android:text="INGRESAR"
+                android:layout_marginLeft="@dimen/space20dp"
+                android:layout_marginRight="@dimen/space20dp"
+                />
+
+<!--
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Email: prueba@gmail.com"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Password: 123"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+-->
+
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

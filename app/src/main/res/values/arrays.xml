@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="estadoCategorias" >
+        <item>Selecione estado categoria</item>
+        <item>0</item>
+        <item>1</item>
+
+    </string-array>
+    <string-array name="estadoProductos" >
+        <item>Seleccione estado producto</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="estadoUsuarios" >
+        <item>Seleccione estado usuario</item>
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="sp_fk" >
+        <item>Seleccione Categoria</item>
+    </string-array>
+
+
+    <string-array name="TipoUsuario">
+        <item>Seleccione un Tipo Usuario </item>
+        <item>Admininistrador</item>
+        <item>Gerente</item>
+        <item>Empleado</item>
+    </string-array>
+    <string-array name="Preguntas">
+        <item>Seleccione una pregunta </item>
+        <item>¿Nombre de tu mama?</item>
+        <item>¿Nombre de tu primera mascota?</item>
+        <item>¿Cual fue tu primera escuela?</item>
+    </string-array>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.willianhdz.proyecto_final_daute.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <!--
+        <fragment
+            android:id="@+id/nav_gallery"
+            android:name="com.example.app_crud_mysql.ui.gallery.GalleryFragment"
+            android:label="@string/menu_gallery"
+            tools:layout="@layout/fragment_gallery" />
+
+        <fragment
+            android:id="@+id/nav_slideshow"
+            android:name="com.example.app_crud_mysql.ui.slideshow.SlideshowFragment"
+            android:label="@string/menu_slideshow"
+            tools:layout="@layout/fragment_slideshow" />
+           -->
+    <fragment
+        android:id="@+id/nav_categoria"
+        android:name="com.willianhdz.proyecto_final_daute.ui.categoria.Categoria"
+        android:label="@string/menu_categoria"
+        tools:layout="@layout/fragment_categoria" />
+    <fragment
+        android:id="@+id/nav_producto"
+        android:name="com.willianhdz.proyecto_final_daute.ui.producto.Producto"
+        android:label="@string/menu_producto"
+        tools:layout="@layout/fragment_producto" />
+    <fragment
+        android:id="@+id/nav_usuario"
+        android:name="com.willianhdz.proyecto_final_daute.ui.usuario.usuario"
+        android:label="@string/menu_usuario"
+        tools:layout="@layout/fragment_usuario" />
+
+    <fragment
+        android:id="@+id/nav_creador"
+        android:name="com.willianhdz.proyecto_final_daute.Creador"
+        android:label="Creador"
+        tools:layout="@layout/fragment_creador" />
+    <fragment
+        android:id="@+id/nav_recycleviewcategoria"
+        android:name="com.willianhdz.proyecto_final_daute.ui.list_recycle_cate.DashboardFragment"
+        android:label="Recycleview Categoria"
+        tools:layout="@layout/layout_recyclerview" />
+
+    <fragment
+        android:id="@+id/nav_listviewCategoria"
+        android:name="com.willianhdz.proyecto_final_daute.ui.list_recycle_cate.ListviewCategoria"
+        android:label="Listview Categoria"
+        tools:layout="@layout/fragment_listview_categoria" />
+    <fragment
+        android:id="@+id/nav_recyclerviewProductos"
+        android:name="com.willianhdz.proyecto_final_daute.ui.list_recycle_pro.RecyclerviewProductos"
+        android:label="fragment_recyclerview_productos"
+        tools:layout="@layout/fragment_recyclerview_productos" />
+
+    <fragment
+        android:id="@+id/nav_listviewProducto"
+        android:name="com.willianhdz.proyecto_final_daute.ui.list_recycle_pro.ListviewProducto"
+        android:label="listview Producto"
+        tools:layout="@layout/fragment_listview_producto" />
+
+    <fragment
+        android:id="@+id/nav_RecyclerviewUsuario"
+        android:name="com.willianhdz.proyecto_final_daute.ui.list_recycle_usu.RecyclerviewUsuarios"
+        android:label="listview Producto"
+        tools:layout="@layout/fragment_recyclerview_usuarios" />
+    <fragment
+        android:id="@+id/nav_listviewUsuario"
+        android:name="com.willianhdz.proyecto_final_daute.ui.list_recycle_usu.ListViewUsuario"
+        android:label="listview usuario"
+        tools:layout="@layout/fragment_list_view_usuario" />
+</navigation>

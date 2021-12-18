@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo"
+    tools:context=".ui.list_recycle_cate.DetalleCategoria">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        card_view:cardUseCompatPadding="true"
+        android:elevation="7dp"
+        card_view:cardCornerRadius="3dp"
+        android:layout_margin="6dp"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearOne"
+            android:orientation="vertical"
+            android:background="@color/fondo2"
+            android:padding="6dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="0dp"
+                android:background="#d5041c">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tvInformId"
+                    android:background="@color/green"
+                    android:textColor="@android:color/white"
+                    android:text="Producto"
+                    android:padding="5dp"
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvUserName"
+                android:text="Código"
+                android:layout_marginTop="25dp"
+                android:textSize="22dp"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvCodigoCatDetalle"
+                android:text="NaN"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/userName1"
+                android:text="Nombre"
+                android:textSize="22dp"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvNombreCatDetalle"
+                android:text="NaN"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/userName2"
+                android:text="Estado"
+                android:textSize="22dp"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvEstadoCatDetalle"
+                android:text="000.00"
+                android:textSize="22dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btnEditarCat"
+                    android:layout_weight="1"
+
+                    android:text="editar"
+                    android:layout_width="0dp"
+                    android:background="@color/lightgreen"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/btnBorrarCat"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@android:color/white"
+                    android:text="Borrar"
+                    android:background="@color/red"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    </ScrollView>
+</RelativeLayout>
+
+
+
+</FrameLayout>

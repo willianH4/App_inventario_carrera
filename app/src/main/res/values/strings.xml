@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Proyecto Final DAUTE</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_categoria">Categoria</string>
+    <string name="menu_usuario">Usuario</string>
+    <string name="menu_producto">Producto</string>
+
+    <string name="LvProductos">Lista de productos</string>
+    <string name="LvUsuarios">Lista de usuarios</string>
+    <string name="LvCategorias">Listado de categorias</string>
+
+    <string name="carrera">Tecnico en ingenieria de sistemas informaticos</string>
+    <string name="Grupo">SIS 21A</string>
+    <string name="Devs">Desarrolladores: </string>
+    <string name="D1">Cristian Vladimir Orellana Orellana</string>
+    <string name="D2">Willian Adalberto Hernandez Aquino</string>
+    <string name="D3">Adonis Alejandro Marin Bautista</string>
+    <string name="D4">Nahun Israel Pineda Paniagua</string>
+
+    <string name="Inst">Centro de estudios: ITCA FEPADE Regional Zacatecoluca</string>
+    <string name="Saludo">Te damos la bienvenida a esta tu app para control de inventario.</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

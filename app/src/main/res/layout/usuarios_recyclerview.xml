@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo2"
+    android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardElevation="3dp"
+            card_view:cardCornerRadius="5dp"
+            android:layout_margin="0dp"
+            card_view:cardBackgroundColor="@color/mediumturquoise"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="150dp"
+                    android:layout_height="@dimen/space220dp"
+                    android:src="@drawable/usuarios"
+                    android:padding="4dp" />
+
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:text="Id: "
+                    android:textStyle="bold"
+                    android:background="@color/lightCustomBlue"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/tvId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:background="@color/lightGrayMiddle"
+                    android:text="Nan"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="@color/brown"/>
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvId"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="15dp"
+                    android:background="@color/lightCustomBlue"
+                    android:text="Nombre: "
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"/>
+
+                <TextView
+                    android:id="@+id/tvNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv2"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:text="NaN"
+                    android:background="@color/lightGrayMiddle"
+                    android:textColor="@color/brown"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvNombre"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:text="Apellidos: "
+                    android:textColor="#000"
+                    android:background="@color/lightCustomBlue"
+                    android:textStyle="bold"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    />
+
+                <TextView
+                    android:id="@+id/tvApellidos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv3"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:text="NaN"
+                    android:background="@color/lightGrayMiddle"
+                    android:textColor="@color/brown"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+                <TextView
+                    android:id="@+id/tv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:text="Correo: "
+                    android:textStyle="bold"
+                    android:layout_below="@id/tvApellidos"
+                    android:background="@color/lightCustomBlue"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/tvCorreo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv4"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:background="@color/lightGrayMiddle"
+                    android:text="Nan"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="@color/brown"/>
+
+                <TextView
+                    android:id="@+id/tv5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvCorreo"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="15dp"
+                    android:background="@color/lightCustomBlue"
+                    android:text="Usuario: "
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"/>
+
+                <TextView
+                    android:id="@+id/tvUsuario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv5"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:text="NaN"
+                    android:background="@color/lightGrayMiddle"
+                    android:textColor="@color/brown"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvUsuario"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:text="Clave: "
+                    android:textColor="#000"
+                    android:background="@color/lightCustomBlue"
+                    android:textStyle="bold"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    />
+
+                <TextView
+                    android:id="@+id/tvClave"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv6"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:text="NaN"
+                    android:background="@color/lightGrayMiddle"
+                    android:textColor="@color/brown"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+
+                <TextView
+                    android:id="@+id/tv7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:text="Tipo: "
+                    android:textStyle="bold"
+                    android:layout_below="@id/tvClave"
+                    android:background="@color/lightCustomBlue"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000" />
+
+                <TextView
+                    android:id="@+id/tvTipo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv7"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:background="@color/lightGrayMiddle"
+                    android:text="Nan"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="@color/brown"/>
+
+                <TextView
+                    android:id="@+id/tv8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvTipo"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="15dp"
+                    android:background="@color/lightCustomBlue"
+                    android:text="Estado Usuario: "
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"/>
+
+                <TextView
+                    android:id="@+id/tvEstado"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv8"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:text="NaN"
+                    android:background="@color/lightGrayMiddle"
+                    android:textColor="@color/brown"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvEstado"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:text="Pregunta: "
+                    android:textColor="#000"
+                    android:background="@color/lightCustomBlue"
+                    android:textStyle="bold"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    />
+
+                <TextView
+                    android:id="@+id/tvPregunta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv9"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:text="NaN"
+                    android:background="@color/lightGrayMiddle"
+                    android:textColor="@color/brown"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+
+                <TextView
+                    android:id="@+id/tv10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvEstado"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:text="Respuesta: "
+                    android:textColor="#000"
+                    android:background="@color/lightCustomBlue"
+                    android:textStyle="bold"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    />
+
+                <TextView
+                    android:id="@+id/tvRespuesta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv10"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:text="NaN"
+                    android:background="@color/lightGrayMiddle"
+                    android:textColor="@color/brown"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+                <TextView
+                    android:id="@+id/tv11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvRespuesta"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:text="Fecha registro: "
+                    android:textColor="#000"
+                    android:background="@color/lightCustomBlue"
+                    android:textStyle="bold"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    />
+
+                <TextView
+                    android:id="@+id/tvFecha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv11"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@id/imageView"
+                    android:text="NaN"
+                    android:background="@color/lightGrayMiddle"
+                    android:textColor="@color/brown"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space10dp"/>
+</LinearLayout>

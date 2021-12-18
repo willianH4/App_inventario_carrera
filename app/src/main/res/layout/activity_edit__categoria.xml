@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/fondo"
+            tools:context=".ui.categoria.Edit_Categoria">
+            <TextView
+                android:id="@+id/tvInformId"
+                android:background="@color/navy"
+                android:textColor="@android:color/white"
+                android:text="Editar Categoria"
+                android:padding="5dp"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/ti_categoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                app:boxBackgroundColor="@color/edittex"
+                android:textColorHint="@color/grey1">
+
+                <EditText
+                    android:id="@+id/edtCategoriaUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:drawablePadding="5dp"
+                    android:ems="10"
+                    android:hint="Escriba el Id de su categoría"
+                    android:inputType="number"
+                    android:paddingLeft="1dp"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="14dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tiNombreCategoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                app:boxBackgroundColor="@color/edittex"
+                android:textColorHint="@color/grey1"
+                >
+
+                <EditText
+                    android:id="@+id/edtNombreCategoriaUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:drawablePadding="5dp"
+                    android:drawableTint="@android:color/holo_blue_dark"
+                    android:ems="10"
+                    android:hint="Digite el nombre categoria"
+                    android:inputType="text"
+                    android:paddingLeft="1dp"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="14dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+                <Spinner
+                    android:id="@+id/sp_estadoUp"
+                    style="@style/Widget.AppCompat.DropDownItem.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="@dimen/space20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/estilospinner2"
+                    android:outlineAmbientShadowColor="@color/black"
+                    android:spinnerMode="dropdown"
+                    android:textColorHint="@android:color/holo_red_dark" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/white">
+        <Button
+            android:id="@+id/btnUpdate"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Actualizar"
+            android:textColor="@color/white"
+            android:background="@color/button"
+            />
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1" />
+        <Button
+            android:id="@+id/btnSalir"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Salir"
+            android:textColor="@color/white"
+            android:background="@color/button"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+
+
