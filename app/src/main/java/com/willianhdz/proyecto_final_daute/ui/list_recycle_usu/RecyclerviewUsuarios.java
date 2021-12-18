@@ -14,8 +14,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.willianhdz.proyecto_final_daute.R;
 import com.willianhdz.proyecto_final_daute.ui.dts.dto_usuarios;
 import com.willianhdz.proyecto_final_daute.ui.list_recycle_cate.DashboardViewModel;
-import com.willianhdz.proyecto_final_daute.ui.user.remote.ApiUtils;
-import com.willianhdz.proyecto_final_daute.ui.user.remote.UserService;
+import com.willianhdz.proyecto_final_daute.ui.user.services.ApiUtils;
+import com.willianhdz.proyecto_final_daute.ui.user.services.UserService;
 
 import java.util.ArrayList;
 import java.util.List;

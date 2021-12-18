@@ -22,9 +22,9 @@ import com.willianhdz.proyecto_final_daute.R;
 import com.willianhdz.proyecto_final_daute.ui.dts.dto_categorias;
 import com.willianhdz.proyecto_final_daute.ui.dts.dto_productos;
 import com.google.android.material.textfield.TextInputLayout;
-import com.willianhdz.proyecto_final_daute.ui.user.remote.ApiUtils;
-import com.willianhdz.proyecto_final_daute.ui.user.remote.CategoryService;
-import com.willianhdz.proyecto_final_daute.ui.user.remote.ProductService;
+import com.willianhdz.proyecto_final_daute.ui.user.services.ApiUtils;
+import com.willianhdz.proyecto_final_daute.ui.user.services.CategoryService;
+import com.willianhdz.proyecto_final_daute.ui.user.services.ProductService;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

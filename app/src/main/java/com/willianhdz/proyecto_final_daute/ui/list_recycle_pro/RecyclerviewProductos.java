@@ -6,7 +6,6 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -15,8 +14,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.willianhdz.proyecto_final_daute.R;
 import com.willianhdz.proyecto_final_daute.ui.dts.dto_productos;
-import com.willianhdz.proyecto_final_daute.ui.user.remote.ApiUtils;
-import com.willianhdz.proyecto_final_daute.ui.user.remote.ProductService;
+import com.willianhdz.proyecto_final_daute.ui.user.services.ApiUtils;
+import com.willianhdz.proyecto_final_daute.ui.user.services.ProductService;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.willianhdz.proyecto_final_daute.ui.user.remote;
+package com.willianhdz.proyecto_final_daute.ui.user.services;
 
 import java.util.concurrent.TimeUnit;
 

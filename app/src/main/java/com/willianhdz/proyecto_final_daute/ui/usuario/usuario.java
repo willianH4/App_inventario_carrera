@@ -19,8 +19,8 @@ import androidx.fragment.app.Fragment;
 import com.willianhdz.proyecto_final_daute.R;
 import com.willianhdz.proyecto_final_daute.ui.dts.dto_usuarios;
 import com.google.android.material.textfield.TextInputLayout;
-import com.willianhdz.proyecto_final_daute.ui.user.remote.ApiUtils;
-import com.willianhdz.proyecto_final_daute.ui.user.remote.UserService;
+import com.willianhdz.proyecto_final_daute.ui.user.services.ApiUtils;
+import com.willianhdz.proyecto_final_daute.ui.user.services.UserService;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

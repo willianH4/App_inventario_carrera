@@ -1,4 +1,4 @@
-package com.willianhdz.proyecto_final_daute.ui.user.remote;
+package com.willianhdz.proyecto_final_daute.ui.user.services;
 
 import com.willianhdz.proyecto_final_daute.ui.dts.dto_categorias;
 

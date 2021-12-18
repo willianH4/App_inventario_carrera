@@ -13,8 +13,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.willianhdz.proyecto_final_daute.MainActivity;
 import com.willianhdz.proyecto_final_daute.R;
 import com.willianhdz.proyecto_final_daute.ui.dts.dto_usuarios;
-import com.willianhdz.proyecto_final_daute.ui.user.remote.ApiUtils;
-import com.willianhdz.proyecto_final_daute.ui.user.remote.UserService;
+import com.willianhdz.proyecto_final_daute.ui.user.services.ApiUtils;
+import com.willianhdz.proyecto_final_daute.ui.user.services.UserService;
 import com.willianhdz.proyecto_final_daute.ui.usuario.Edit_Usuario;
 
 import retrofit2.Call;
